@@ -12,7 +12,7 @@ I also decided to use a library called LangChain. LangChain is a library that ma
 
 One of the biggest challenges I faced was extracting the text from the PDF resumes. I used the PyPDF2 library to do this, but it was tricky to get it to work correctly. I also had to deal with the fact that the resumes were in different formats, which made it difficult to extract the information consistently. So I converted that PDF to String object by iterating each page in resume pdf.
 
-Another challenge was training the LLM to extract the key information from the resumes. I used a variety of techniques, such as fine-tuning the LLM on a dataset of labeled resumes and using prompt templates, which previously difficult to get the LLM to extract the information accurately and consistently.
+Another challenge was training the LLM to extract the key information from the resumes. I used a variety of techniques, such as fine-tuning the LLM on a dataset of labeled resumes and using prompt templates, which previously difficult to get.
 
 ## Approach taken
 
